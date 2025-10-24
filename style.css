@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  background-color: #f1f1;
+  color: #0f141e;
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+
+}
+
+.avatar {
+  width: 175px;
+  height: 124px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 14 px rgba(0, 0, 0, 025);
+}
+
+/* в html файл создаем class для определенного тега (мы взяли <img>)
+чтобы применять к нему каскадные таблицы, мы называем наш класс и в файле style.css
+перед названием ставми точку: .имя_класса) Запомнить: для классов - ".", для id - "#"
+id - уникальный, а классы могут быть одинаковыми*/
+
+/* <div></div> - просто блочный элемент. Мы просто объединяем элементы, чтобы
+ими было проще управлять. */
+
+.info p {
+  color: #86898f;
+  margin: 0; /*убирает отступы между параграфами*/
+  font-style: italic; /* наклон текста */
+  font-weight: bold; /* придает утолщение тексту */
+  text-decoration: underline;
+  text-transform: none;
+  letter-spacing: normal; /*отступ между буквами в пикселях */
+  word-spacing: normal /*Пространство между словами в пикселях*/
+
+}
+
+/*Box Model */
+.container {
+  max-width: 800px;
+  margin: auto
+}
+.social {
+  background-color: wheat;
+  padding:  15px; /*внутрення граница*/
+  border: 5px solid white;
+  margin: 20px
+
+
+}
